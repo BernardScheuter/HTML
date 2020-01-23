@@ -7,33 +7,54 @@
     <meta name="description" content="My first HTML page :D">
     <meta name="author" content="Bernard Scheuter">
     <meta />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-        blockquote {text-align: center;}
-        cite {text-align: end;}
-        h2 {text-align: center;}
-        h3 {text-align: center;}
-        p {
-            margin: 0 auto;
+        body 
+        {
+            background-color: rgb(36, 37, 34);
+            color:rgb(162, 250, 154);
+            }
+        blockquote 
+        {
             text-align: center;
             }
+        cite {text-align: center;
+            }
+        h2 {text-align: center;}
+        h3 {text-align: center;}
+        p { font-family: "courier new";
+            width: 80%;
+            margin: 5%;
+            padding: 15px;
+            border: 15px solid rgba(162, 250, 154, 0.993);
+            border-radius: 25px;
+            text-align: left;
+            background: rgb(11, 19, 0);
+            color:rgb(162, 250, 154);
+            }
+
+
     </style>
 
 </head>
 
 <body>
-    <header>            <img width="100%" src="https://038coder.nl/Images/100daysofcode banner.jpg">
-            <p>
-                <quote>Debugging my future!</quote>
-                <cite>Bernard '20</cite>
-            </p>
-            <br>
-            Status:
-            <div class="progress .active">
-                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="7" aria-valuemin="0"
-                    aria-valuemax="100" style="width:7%">
-                    7%
+    <header>
+        <img width="100%" src="https://038coder.nl/Images/100daysofcode banner.jpg" alt="Banner #100DaysOfCode" class="left">
+        <br>
+        <br>
+        <br>
+        <blockquote>Debugging my future!</blockquote>
+        
+        <cite>Bernard '20</cite>
+        <br>
+        Status:
+            <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="8" aria-valuemin="0"
+                aria-valuemax="100" style="width:8%">
+                8%
                 </div>
             </div>
             <nav>
@@ -41,22 +62,46 @@
                 <li class="breadcrumb-item active"><a href="https://038coder.nl/index.html">Home</li></a>
                 <li class="breadcrumb-item"><a href="https://038coder.nl/days/day1.html">First day</li class="breadcrumb-item"></a>
                 <li class="breadcrumb-item"><a href="https://038coder.nl/html/contact.html" target="_blank">Contact</li class="breadcrumb-item"></a>
+                <li class="breadcrumb-item"><a href="https://038coder.nl/html/Form.html" target="_blank">Formulier</li class="breadcrumb-item"></a>
             </ol>
-            </nav>
-            Ow yeah, I'm updating this all the time, so please be patient. I'm perfectly aware that there are a lot of points of improvement :D
+            F           <br>Ow yeah, I'm updating this all the time, so please be patient. I'm perfectly aware that there are a lot of points of improvement :D
     </header>
+    
     <article>
+        <section>
+            
+            <p>100DaysOfCode [Version 22.02.2020]
+                <br>
+                <br>Day 8:\user\Bernard&gt;ListDay.exe /p 
+                <br>
+                <br>Listing of today: Nieuwe dag, nieuwe uitdagingen...
+                <br>Ik wil nu iig voor de tekst formatting alleen nog maar gebruik maken van HTML/CSS. 
+                Dit zodat ik gewoon door kan typen wat ik wil. 
+                En dit zonder opmaak in de tekst zelf dus, zodat alles netjes vanzelf in het juiste format etc. afgebeeld wordt.
+                <br>Ow wait, this is suppost to be in english.. Well I was just rambling about the fact that I want to use CSS for all 
+                of the text formatting. For cleaner coding :)_
+                <br>And placed the banner my daugher made.
+
+            </p>
+    
+    </article>
         <hr>
             <section>
             <h3>Day 7/100:</h3>
                 <p>Whoohoo, first week :P
-                Just following along the course and some tutorials... again... 
-                <br>played around with linking documents and making tables in HTML.
+                <br>Just following along the course and some tutorials... again... 
+                <br><img style="float:left" width="200" src="./Images/work.jpg">played around with linking documents and making tables in HTML.
                 <br>Used stylesheet to format the table.
-                <br>Today not a major update to the site, just some fixes. Made the tables in a seperate HTML doc.
+                <br>Ow yeah figured out how to wrap text, so here it is again: it's "honest work".
+                <br>Ow... not realy working... lol.... back to the drawingboard tomorrow.. can't win them all in one go :D
+                <br>No major update to the site, just some fixes. Made the tables in a seperate HTML doc.
                 <br>
+                <br><quote>“The master has failed more times than the beginner has even tried.”</quote>
+                <br><cite>Stephen McCarnie</cite>
+                <br>
+
                 </p>
-    </article>
+    
     
         <hr>
             <section>
@@ -82,8 +127,8 @@
                 <br>
                 <br>Visited one of my friends yesterday, and he helped me with some code related questions I had.
                 <br>Public thanks for that Joop :D
-                <hr>
             </p>
+            
             
             <h3>Day 4/100:</h3>
             Interrupted the HTML Fundamentals training to give priority to GIT training
