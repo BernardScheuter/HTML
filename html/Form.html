@@ -16,6 +16,10 @@
             background-color: rgb(36, 37, 34);
             color:rgb(162, 250, 154);
             }
+        legend{
+            text-align: center;
+            color:rgb(162, 250, 154);
+        };    
         blockquote 
         {
             text-align: center;
@@ -32,7 +36,7 @@
             border-radius: 25px;
             text-align: left;
             background: rgb(11, 19, 0);
-            color:rgb(0, 2, 0);
+            color:rgb(162, 250, 154);
             }
 
 
@@ -68,17 +72,18 @@
     </header>
     <hr>
     
-    <form>
-        <p>
+    <form action="/verwerk.php">
+        <fieldset><p>
+            <legend>Your contact information:</legend>
+            Note: this is just an empty form, no links to PHP/Database/whatever yet.
         <br>You can enter text here: <input type="text" placeholder="Iets van tekst">
         <br>Email here: <input type="email" placeholder="Somebody.Cool@mail.com">
         <br>Password here(but I wouldn't do that if I where you :P):<input type="password" placeholder="*******">
         <br>And you can upload a file here: <input type="file">
         <br>Submit here: <input type="submit">
-    </p>
-    
+        </p> </fieldset>  
     </form>
-
+ 
     <hr/>
     <footer>
                 &copy; Bernard Scheuter 2020 :D
