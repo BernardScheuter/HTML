@@ -1,8 +1,12 @@
-        body{background-color: rgb(36, 37, 34);
+        body{font-family: "courier new";
+            background-color: rgb(11, 19, 0);
             color:rgb(162, 250, 154);
             text-align: left;}
-        h2 {text-align: center;}
-        h3 {text-align: center;}
+       
+        h2 {font-family: "courier new";
+            text-align: center;}
+        h3 {font-family: "courier new";
+            text-align: center;}
         h6 {text-align: center;}
         p  {font-family: "courier new";
             width: 80%;
@@ -13,3 +17,102 @@
             text-align: left;
             background: rgb(11, 19, 0);
             color:rgb(162, 250, 154);}
+        legend {font-family: "courier new";
+            text-align: center;
+            background-color: rgb(11, 19, 0);
+            color:rgb(162, 250, 154);
+            text-align: left;}
+        input[type=text] {
+            background-color: rgb(11, 19, 0); 
+            color:rgb(162, 250, 154);
+            width: 100%;
+            padding: 6px 10px;
+            margin: 4px 0;
+            border: 2px solid rgba(162, 250, 154, 0.993);
+            border-radius: 15px;
+            
+          }
+          textarea{
+            background-color: rgb(11, 19, 0); 
+            color:rgb(162, 250, 154);
+            height: 400px;
+            width: 100%;
+            padding: 6px 10px;
+            margin: 4px 0;
+            border: 2px solid rgba(162, 250, 154, 0.993);
+            border-radius: 15px;
+            
+          }
+          input[type=submit]{
+            background-color: rgb(11, 19, 0); 
+            color:rgb(162, 250, 154);
+            width: 10%;
+            padding: 5px 5px;
+            margin: 4px 0;
+            border: 2px solid rgba(162, 250, 154, 0.993);
+            border-radius: 15px;
+            position: relative;
+            left: 75%;}
+          input[type=button]{
+            background-color: rgb(11, 19, 0); 
+            color:rgb(162, 250, 154);
+            width: 10%;
+            padding: 5px 5px;
+            margin: 8px 0;
+            border: 2px solid rgba(162, 250, 154, 0.993);
+            border-radius: 15px;
+            position: relative;
+            left: 0%;}
+
+            a   {
+                background-color: rgb(41, 68, 2);
+                color:rgb(162, 250, 154);
+                text-decoration: none;
+                display: block;
+                padding: 8px;
+                
+                }
+                
+          ul{   
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(11, 19, 0);
+                color:rgb(162, 250, 154);
+            }
+
+            li{   
+              float: left;
+              border-right: 1px solid #4CAF50;
+              border-left: 1px solid #4CAF50;
+            }
+
+          li a
+          {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            width: 150px;
+            text-decoration: none;
+            font-size: 1.3em;
+            
+          }  
+          
+        li a:hover
+        {
+            text-decoration: none;
+            color: rgb(182, 253, 180);
+            background-color: rgb(11, 19, 0);
+            font-size: 1.5em;
+        }
+        
+        a:visited
+        {
+            color: rgb(0, 0, 0);
+        }
+        .active
+        {
+            background-color: #4CAF50;
+            color: rgba(162, 250, 154, 0.993);
+        }
