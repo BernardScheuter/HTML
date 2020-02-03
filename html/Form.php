@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>038Coder.nl #100DaysOfCode</title>
-    <meta name="description" content="My first HTML page :D">
+    <meta name="description" content="PHP form page">
     <meta name="author" content="Bernard Scheuter">
     <meta />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -21,38 +21,43 @@
         
         <h3>Status:</h3>
             <div class="progress" style="background-color: rgb(40, 60, 0);">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="14" aria-valuemin="0"
-                aria-valuemax="100" style="width:14%">
-                    <div style="color:rgb(40, 60, 0);">14%</div>
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="15" aria-valuemin="0"
+                aria-valuemax="100" style="width:15%">
+                    <div style="color:rgb(40, 60, 0);">15%</div>
                 </div>
             </div>
             <nav>
                 <ul>
                     <li><a href="https://038coder.nl/index.html">Home</a></li>
                     <li><a href="https://038coder.nl/html/contact.html" target="_blank">Contact</a></li>
-                    <li><a class="selected active" href="https://038coder.nl/html/Form.html" target="_blank">Form</a></li>
+                    <li><a class="selected active" href="https://038coder.nl/html/Form.php" target="_blank">Form</a></li>
                     <li><a href="https://038coder.nl/days/day1.html">First day</a></li>
                 </ul>
             </nav>
     </header>
 
-    <form action="../php/verwerk.php" method="POST">
+    <form action="https://038coder.nl/php/verwerk.php" method="POST">
        <fieldset> 
         <p>
         <legend>You can ALMOST leave your feedback here:</legend>
         Your name:<br>
-        <input type="text" value="C:\Users\name>">
+        <input type="text" name="firstname" placeholder="Your name">
         <br>
         Your message:
         <br>
-        <textarea name="message"></textarea>
+        <input type="text" name="message" placeholder="Your message">
         <br>
-        <input type="button" name="Cancel" value="Cancel">
-        <input type="submit" name="Send">
+        <input float="left" type="button" onclick="history.go(-1);" value="BACK">
+        <input float="left" type="reset">
+        <input float="left" type="submit" name="SEND">
         </p>
        </fieldset> 
     </form>
- 
+
+<?php
+echo "Messages:<br>";
+echo readfile("https://038coder.nl/php/message.txt");
+?>    
 <hr>
     <footer>
                 &copy; Bernard Scheuter 2020 :D
