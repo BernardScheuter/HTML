@@ -6,6 +6,7 @@
     <title>038Coder.nl #100DaysOfCode</title>
     <meta name="description" content="PHP form page">
     <meta name="author" content="Bernard Scheuter">
+    <meta http-equiv="cache-control" content="no-cache">
     <meta />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://038coder.nl/style.css" rel="my own stylesheet">
@@ -21,9 +22,9 @@
         
         <h3>Status:</h3>
             <div class="progress" style="background-color: rgb(40, 60, 0);">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="15" aria-valuemin="0"
-                aria-valuemax="100" style="width:15%">
-                    <div style="color:rgb(40, 60, 0);">15%</div>
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="16" aria-valuemin="0"
+                aria-valuemax="100" style="width:16%">
+                    <div style="color:rgb(40, 60, 0);">16%</div>
                 </div>
             </div>
             <nav>
@@ -36,7 +37,7 @@
             </nav>
     </header>
 
-    <form action="https://038coder.nl/php/verwerk.php" method="POST">
+    <form action="https://038coder.nl/php/verwerk.php" target="_self" method="POST">
        <fieldset> 
         <p>
         <legend>You can ALMOST leave your feedback here:</legend>
@@ -55,12 +56,13 @@
     </form>
 
 <?php
-echo "Messages:<br>";
+echo date("Y-M-D_H:i:s");
+echo "<br>Messages:<br>";
 echo readfile("https://038coder.nl/php/message.txt");
 ?>    
 <hr>
     <footer>
-                &copy; Bernard Scheuter 2020 :D
+                &copy; Bernard Scheuter 2020 :D<br>
     </footer> 
 </body>
 </html>

@@ -1,10 +1,11 @@
-body, header, pre
+body, header,pre
 {
   font-family: "Courier New";
   background-color: rgb(11, 19, 0);
   color:rgb(162, 250, 154);
   text-align: left;
 }
+
 h2 
 {
   font-family: "Courier New";
@@ -24,7 +25,7 @@ p
   font-family:  "Courier New";
   width: 80%;
   margin: 30px;
-  padding: 15px;
+  padding: 10px 30px;
   border: 15px solid rgba(162, 250, 154, 0.993);
   border-radius: 25px;
   text-align: left;
