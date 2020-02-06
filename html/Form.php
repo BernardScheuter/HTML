@@ -6,7 +6,7 @@
     <title>038Coder.nl #100DaysOfCode</title>
     <meta name="description" content="PHP form page">
     <meta name="author" content="Bernard Scheuter">
-    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="cache-control" content="no-store">
     <meta />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://038coder.nl/style.css" rel="my own stylesheet">
@@ -19,10 +19,10 @@
         <iframe src="./Status100DaysOfCode.html" height="200" width="100%" style="border:none;"></iframe>
             <nav>
                 <ul>
-                    <li><a href="https://038coder.nl/index.html">Home</a></li>
-                    <li><a href="https://038coder.nl/html/contact.html">Contact</a></li>
-                    <li><a class="selected active" href="https://038coder.nl/html/Form.php">Form</a></li>
-                    <li><a href="https://038coder.nl/days/day1.html">First day</a></li>
+                    <li><a class="special-button" href="https://038coder.nl/index.html">Home</a></li>
+                    <li><a class="special-button" href="https://038coder.nl/html/contact.html">Contact</a></li>
+                    <li><a class="selected active special-button" href="https://038coder.nl/html/Form.php">Form</a></li>
+                    <li><a class="special-button" href="https://038coder.nl/days/day1.html">First day</a></li>
                 </ul>
             </nav>
     </header>
