@@ -6,20 +6,11 @@ body, header,pre
   text-align: left;
 }
 
-h2 
-{
-  font-family: "Courier New";
-  text-align: center;
-}
-h3 
-{
-  font-family: "Courier New";
-  text-align: center;
-}
-h6 
+h2, h3, h4, h5, h6
 {
   text-align: center;
 }
+
 p  
 {
   font-family:  "Courier New";
@@ -34,16 +25,15 @@ p
 }
 legend 
 {
-  font-family: "courier new";
-  text-align: center;
   background-color: rgb(11, 19, 0);
   color:rgb(162, 250, 154);
   text-align: left;
 }
-  input[type=text] 
+  input[type=text], textarea
   {
-    background-color: rgb(11, 19, 0); 
-    color:rgb(162, 250, 154);
+    background-color: rgb(162, 250, 154);
+    color:rgb(11, 19, 0);
+    font-size: 1.3em;
     width: 100%;
     padding: 6px 10px;
     margin: 4px 0;
@@ -52,14 +42,7 @@ legend
   }
   textarea
   {
-    background-color: rgb(11, 19, 0); 
-    color:rgb(162, 250, 154);
     height: 400px;
-    width: 100%;
-    padding: 6px 10px;
-    margin: 4px 0;
-    border: 2px solid rgba(162, 250, 154, 0.993);
-    border-radius: 15px;
   }
   input[type=submit], input[type=button], input[type=reset]
   {
@@ -73,7 +56,8 @@ legend
   }
   ::placeholder
   {
-    color: rgb(62, 94, 59);
+    color: rgb(11, 19, 0);
+    
   }
 
   a   
