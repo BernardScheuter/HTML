@@ -132,6 +132,16 @@ legend
     color: rgba(162, 250, 154, 0.993);
   }
   
+  .imagecenter {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+   
+  }
+
   .blinking-cursor {
     animation-name: blink;
     font-weight: 100;
